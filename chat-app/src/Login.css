@@ -1,0 +1,92 @@
+
+
+/* Center the form */
+.login-container {
+  background: url("../public/assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center bottom;
+  /* background-color: #F5F7EE; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Glassmorphism styling for the form */
+.form-group {
+  background-color:#131112;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  border: none;
+  position: absolute;
+  padding: 4%;
+  top: 10%;
+  right: 25%;
+  
+  text-align: center;
+  color: white;
+
+
+  
+  align-items: center;
+  color:whitesmoke;
+}
+
+/* Form header */
+.login-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* Input fields */
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+ 
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Input focus effect */
+.login-form input:focus {
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+/* Submit button */
+.login-form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Additional text and links */
+.login-form p {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.login-form a {
+  color: #ffffff;
+  text-decoration: underline;
+}
